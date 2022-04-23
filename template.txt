@@ -1,0 +1,259 @@
+{
+    "ApplyTaxAfterDiscount": false,
+    "Balance": 0,
+    "CurrencyRef": {
+        "name": "United States Dollar",
+        "type": "",
+        "value": "USD"
+    },
+    "CustomField": [
+        {
+            "DefinitionId": "1",
+            "Name": "Salesman",
+            "StringValue": "",
+            "Type": "StringType"
+        }
+    ],
+    "CustomerRef": {
+        "name": "ivan50 (customer)",
+        "type": "",
+        "value": "346"
+    },
+    "DepositToAccountRef": {
+        "name": "Undeposited Funds",
+        "type": "",
+        "value": "4"
+    },
+    "DocNumber": "S00086",
+    "EmailStatus": "NotSet",
+    "ExchangeRate": 1,
+    "GlobalTaxCalculation": "TaxExcluded",
+    "Id": "1687",
+    "Line": [
+        {
+            "Amount": 488.0,
+            "CustomField": [],
+            "Description": "pr1",
+            "DetailType": "SalesItemLineDetail",
+            "Id": "1",
+            "LineNum": 1,
+            "LinkedTxn": [],
+            "SalesItemLineDetail": {
+                "ItemAccountRef": {
+                    "name": "Sales of Product Income",
+                    "value": "79"
+                },
+                "ItemRef": {
+                    "name": "Office Furniture",
+                    "value": "426"
+                },
+                "Qty": 4,
+                "TaxClassificationRef": {
+                    "value": "EUC-99990101-V1-00020000"
+                },
+                "TaxCodeRef": {
+                    "value": "TAX"
+                }
+            }
+        },
+        {
+            "Amount": 94.0,
+            "CustomField": [],
+            "Description": "pr2",
+            "DetailType": "SalesItemLineDetail",
+            "Id": "2",
+            "LineNum": 2,
+            "LinkedTxn": [],
+            "SalesItemLineDetail": {
+                "ItemAccountRef": {
+                    "name": "Sales of Product Income",
+                    "value": "79"
+                },
+                "ItemRef": {
+                    "name": "Office Furniture",
+                    "value": "426"
+                },
+                "Qty": 1,
+                "TaxClassificationRef": {
+                    "value": "EUC-99990101-V1-00020000"
+                },
+                "TaxCodeRef": {
+                    "value": "TAX"
+                }
+            }
+        },
+        {
+            "Amount": 12.0,
+            "CustomField": [],
+            "Description": "pr3",
+            "DetailType": "SalesItemLineDetail",
+            "Id": "3",
+            "LineNum": 3,
+            "LinkedTxn": [],
+            "SalesItemLineDetail": {
+                "ItemAccountRef": {
+                    "name": "Sales of Product Income",
+                    "value": "79"
+                },
+                "ItemRef": {
+                    "name": "All",
+                    "value": "400"
+                },
+                "Qty": 1,
+                "TaxClassificationRef": {
+                    "value": "EUC-09020802-V1-00120000"
+                },
+                "TaxCodeRef": {
+                    "value": "TAX"
+                }
+            }
+        },
+        {
+            "Amount": 112.0,
+            "CustomField": [],
+            "Description": "pr4",
+            "DetailType": "SalesItemLineDetail",
+            "Id": "4",
+            "LineNum": 4,
+            "LinkedTxn": [],
+            "SalesItemLineDetail": {
+                "ItemAccountRef": {
+                    "name": "Sales of Product Income",
+                    "value": "79"
+                },
+                "ItemRef": {
+                    "name": "All",
+                    "value": "400"
+                },
+                "Qty": 1,
+                "TaxClassificationRef": {
+                    "value": "EUC-09020802-V1-00120000"
+                },
+                "TaxCodeRef": {
+                    "value": "TAX"
+                }
+            }
+        },
+        {
+            "Amount": 210.0,
+            "CustomField": [],
+            "Description": "pr5",
+            "DetailType": "SalesItemLineDetail",
+            "Id": "5",
+            "LineNum": 5,
+            "LinkedTxn": [],
+            "SalesItemLineDetail": {
+                "ItemAccountRef": {
+                    "name": "Sales of Product Income",
+                    "value": "79"
+                },
+                "ItemRef": {
+                    "name": "All",
+                    "value": "400"
+                },
+                "Qty": 1,
+                "TaxClassificationRef": {
+                    "value": "EUC-09020802-V1-00120000"
+                },
+                "TaxCodeRef": {
+                    "value": "TAX"
+                }
+            }
+        },
+        {
+            "Amount": 916.0,
+            "CustomField": [],
+            "DetailType": "SubTotalLineDetail",
+            "LineNum": 0,
+            "LinkedTxn": [],
+            "SubTotalLineDetail": {}
+        }
+    ],
+    "LinkedTxn": [],
+    "MetaData": {
+        "CreateTime": "2022-04-22T11:46:53-07:00",
+        "LastUpdatedTime": "2022-04-22T11:46:53-07:00"
+    },
+    "PaymentRefNum": "",
+    "PrintStatus": "NotSet",
+    "PrivateNote": "",
+    "ShipDate": "",
+    "ShipFromAddr": {
+        "Id": "984",
+        "Line1": "123 Sierra Way",
+        "Line2": "San Pablo, CA  87999 US"
+    },
+    "SyncToken": "0",
+    "TaxExemptionRef": {},
+    "TotalAmt": 946.9,
+    "TrackingNum": "",
+    "TxnDate": "2022-04-22",
+    "TxnTaxDetail": {
+        "TaxLine": [
+            {
+                "Amount": 1.67,
+                "DetailType": "TaxLineDetail",
+                "TaxLineDetail": {
+                    "NetAmountTaxable": 334.0,
+                    "PercentBased": true,
+                    "TaxPercent": 0.5,
+                    "TaxRateRef": {
+                        "name": "",
+                        "type": "",
+                        "value": "15"
+                    }
+                }
+            },
+            {
+                "Amount": 20.88,
+                "DetailType": "TaxLineDetail",
+                "TaxLineDetail": {
+                    "NetAmountTaxable": 334.0,
+                    "PercentBased": true,
+                    "TaxPercent": 6.25,
+                    "TaxRateRef": {
+                        "name": "",
+                        "type": "",
+                        "value": "12"
+                    }
+                }
+            },
+            {
+                "Amount": 5.01,
+                "DetailType": "TaxLineDetail",
+                "TaxLineDetail": {
+                    "NetAmountTaxable": 334.0,
+                    "PercentBased": true,
+                    "TaxPercent": 1.5,
+                    "TaxRateRef": {
+                        "name": "",
+                        "type": "",
+                        "value": "28"
+                    }
+                }
+            },
+            {
+                "Amount": 3.34,
+                "DetailType": "TaxLineDetail",
+                "TaxLineDetail": {
+                    "NetAmountTaxable": 334.0,
+                    "PercentBased": true,
+                    "TaxPercent": 1,
+                    "TaxRateRef": {
+                        "name": "",
+                        "type": "",
+                        "value": "13"
+                    }
+                }
+            }
+        ],
+        "TotalTax": 30.9,
+        "TxnTaxCodeRef": {
+            "name": "",
+            "type": "",
+            "value": "17"
+        }
+    },
+    "domain": "QBO",
+    "sparse": false
+}
